@@ -24,5 +24,104 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageButton
+            android:id="@+id/ratingBtn1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/defaultMargin"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBtn2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/ratingBtn2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/icon1"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            android:tag="1"
+            android:scaleType="fitCenter"
+            android:padding="0dp"/>
+
+        <ImageButton
+            android:id="@+id/ratingBtn2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBtn3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ratingBtn1"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/icon2"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:tag="2"
+            android:scaleType="fitCenter"
+            android:padding="0dp"/>
+
+        <ImageButton
+            android:id="@+id/ratingBtn3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBtn4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ratingBtn2"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/icon3"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:tag="3"
+            android:scaleType="fitCenter"
+            android:padding="0dp"/>
+
+        <ImageButton
+            android:id="@+id/ratingBtn4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBtn5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ratingBtn3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/icon4"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:tag="4"
+            android:scaleType="fitCenter"
+            android:padding="0dp"/>
+
+        <ImageButton
+            android:id="@+id/ratingBtn5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBtn6"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ratingBtn4"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/icon5"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:tag="5"
+            android:scaleType="fitCenter"
+            android:padding="0dp"/>
+
+        <ImageButton
+            android:id="@+id/ratingBtn6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_marginLeft="@dimen/defaultMargin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ratingBtn5"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/icon6"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:tag="6"
+            android:scaleType="fitCenter"
+            android:padding="0dp"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
